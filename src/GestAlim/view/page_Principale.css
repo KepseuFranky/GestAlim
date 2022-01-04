@@ -1,0 +1,323 @@
+.anchorPane1
+{
+    -fx-background-color: rgb(5, 121, 113);
+    -fx-border-color:  black;
+    -fx-font-family:cambria;
+
+}
+
+.buttonAnchorPane1
+{
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-text-align: right;
+}
+.buttonRecherche
+{
+    -fx-background-color:rgb(96, 108, 129);    
+    -fx-border-radius:15px;
+    -fx-background-radius: 15px;
+    -fx-border-color:none;
+    -fx-font-size: 15px;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+     
+}
+#anchorPane2
+{
+    -fx-background-color: rgb(209, 220, 241);
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:14;
+    -fx-text-fill:white; 
+    
+}
+.labelPro
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: Bold Italic; 
+    -fx-text-fill:black; 
+    
+}
+.labelTotaux
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: Bold Italic; 
+    -fx-text-fill:black;
+    -fx-font-size: 17;
+    
+}
+.anchorpane3
+{
+    -fx-background-color: rgb(228, 233, 241);
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:14;
+    -fx-text-fill:black;
+    
+}
+.labelPresentation
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: Bold Italic; 
+    -fx-text-fill:black; 
+    -fx-font-size: 17;
+
+}
+.sousThemes
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-text-fill:rgb(14, 11, 219); 
+    -fx-font-size: 30; 
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.2, 0.0, 0.0);
+}
+.boutonValidation
+{
+    -fx-background-color:#1ebe76;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold;
+    -fx-font-size: 18;
+    -fx-border-radius: 25px;
+    -fx-border-color:none;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+    
+}
+.boutonAnulation
+{
+    -fx-background-color:#e9864c;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold;
+    -fx-font-size: 18;  
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+    
+}
+.acceuil
+{
+    -fx-background-image: url("icones/Theme2.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1032 736;
+    -fx-background-position: center center;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:17;
+    -fx-text-fill:black;
+}
+.boutonAcceuil
+{
+    -fx-background-color: rgb(118, 236, 227);
+    -fx-background-radius: 35px;
+    -fx-font-style:bold;
+    -fx-font-family:Cambria;
+    -fx-font-size: 15px;
+    -fx-text-fill:black;
+    
+}
+.anchorPaneSpecial
+{
+    -fx-background-color: rgb(228, 233, 241);
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:14;
+    -fx-text-fill:black;
+    -fx-background-radius: 70px;
+}
+.boutonAcceuilSpe
+{
+    -fx-background-color: rgb(118, 236, 227);
+    -fx-background-radius: 35px;
+    -fx-font-style:bold;
+    -fx-font-family:Cambria;
+    -fx-font-size: 15px;
+    -fx-text-fill:black;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+}
+.exit
+{
+    -fx-background-color: rgb(4, 83, 77);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font-style:bold;
+    -fx-text-fill:white;
+    -fx-font-family:Cambria;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+}
+.supprimer
+{
+    -fx-background-color: rgb(145, 7, 7);
+    -fx-border-radius:10px;
+    -fx-background-radius: 10px;
+    -fx-font-style:bold;
+    -fx-font-family:Cambria;
+    -fx-font-size: 15px;
+    -fx-text-fill:white;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+
+}
+.GestAlim
+{
+    -fx-background-color: rgb(242, 242, 242);
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:14;
+    -fx-text-fill:black;  
+}
+.sousTheme2
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-text-fill:rgb(21, 18, 173); 
+    -fx-font-size: 30; 
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.1, 0.0, 0.0);
+}
+.modifier
+{
+    -fx-background-color:#148142;
+    -fx-border-radius:10px;
+    -fx-background-radius: 10px;
+    -fx-font-style:bold;
+    -fx-font-family:Cambria;
+    -fx-font-size: 15px;
+    -fx-text-fill:white;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+
+    
+}
+.decote
+{
+    -fx-background-color: rgb(228, 233, 241);
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-font-size:18px;
+    -fx-text-fill:black;
+}
+
+.actualiser
+{
+    -fx-background-color: rgb(219, 152, 28);   
+    -fx-border-radius:15px;
+    -fx-background-radius: 15px;
+    -fx-border-color:none;
+    -fx-font-size: 15px;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+}
+.annulationPage
+{
+    -fx-background-color:#e9864c;   
+    -fx-border-radius:10px;
+    -fx-background-radius: 10px;
+    -fx-border-color:none;
+    -fx-font-size: 15px;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+}
+.validationPage
+{
+    -fx-background-color:#1ebe76;
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold;
+    -fx-font-size: 15px;
+    -fx-border-radius: 10px;
+    -fx-border-color:none;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+}
+.acceuilPage
+{
+    -fx-background-color: rgb(118, 236, 227);
+    -fx-background-radius: 10px;
+    -fx-font-style:bold;
+    -fx-font-family:Cambria;
+    -fx-font-size: 15px;
+    -fx-text-fill:black;  
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.8, 0.0, 0.0);
+
+}
+
+
+.textAcceuil
+{
+    -fx-font-family : Cambria ;
+    -fx-font-style: bold; 
+    -fx-fill:rgb(21, 18, 173); 
+    -fx-font-size: 30; 
+    -fx-effect: dropshadow(gaussian, rgba(10, 1, 1, 0.3), 10, 0.1, 0.0, 0.0);
+}
+#employee
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/icons8-invité-homme-100.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+
+    
+}
+#evolutione
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/evolution.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+  
+}
+#facturatione
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/icons8-machine-à-facturer-100.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+
+    
+}
+#facture
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/icons8-facturation-100.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+
+}
+#produite
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/panier2.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+
+}
+#fournisseure
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/icons8-camion-alimentaire-96.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+
+}
+#statistique
+{
+    -fx-background-radius: 90px;
+    -fx-border-radius: 90px;
+    -fx-background-image : url("icones/statistique.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-color: rgb(15, 187, 173);
+  
+}
+
+

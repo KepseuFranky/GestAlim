@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestAlim.view.FacturationController">
+   <children>
+      <GridPane layoutY="43.0" prefHeight="692.0" prefWidth="165.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <JFXButton onAction="#HandleAccueil" prefHeight="51.0" prefWidth="144.0" text="Acceuil " textFill="#391818" GridPane.halignment="RIGHT" />
+            <ImageView fitHeight="32.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icones/icons8-accueil-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../k/icons8-rubik's-cube-50%20(1).png" />
+               </image>
+            </ImageView>
+            <JFXButton prefHeight="50.0" prefWidth="125.0" text="facturation" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="50.0" prefWidth="171.0" text="factures" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="50.0" prefWidth="118.0" text="evolution" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="50.0" prefWidth="115.0" text="Employes" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="50.0" prefWidth="130.0" text="fournisseurs" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+            <JFXButton prefHeight="50.0" prefWidth="118.0" text="Comptabilite" GridPane.halignment="RIGHT" GridPane.rowIndex="7" />
+            <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../Icones/icons8-facturation-30%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../Icones/icons8-machine-à-facturer-100%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               <image>
+                  <Image url="@../Icones/icons8-haussier-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../Icones/icons8-invité-homme-100.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+               <image>
+                  <Image url="@../Icones/icons8-food-truck-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+               <image>
+                  <Image url="@../../../../../../Desktop/Debut/icones/icons8-calculator-96%20(1).png" />
+               </image>
+            </ImageView>
+            <JFXButton prefHeight="51.0" prefWidth="169.0" text="Produits" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <TableView fx:id="tableProduit" layoutX="165.0" layoutY="119.0" prefHeight="210.0" prefWidth="842.0">
+        <columns>
+          <TableColumn fx:id="cCodePro" prefWidth="131.0" text="CodePro" />
+            <TableColumn fx:id="cNomPro" prefWidth="131.0" text="NomPro" />
+            <TableColumn fx:id="cPrix" prefWidth="131.0" text="PrixVente" />
+            <TableColumn fx:id="cQte" prefWidth="131.0" text="Qte" />
+            <TableColumn fx:id="cDesc" prefWidth="187.0" text="Description" />
+            <TableColumn fx:id="cIdCategorie" prefWidth="129.0" text="Id_Categorie" />
+        </columns>
+      </TableView>
+      <AnchorPane prefHeight="44.0" prefWidth="1032.0" style="-fx-background-color: rgb(228,228,228);">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="7.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icones/icons8-octahedron-80.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" prefHeight="25.0" prefWidth="154.0" text="GestAlim " textFill="#0749bc">
+               <font>
+                  <Font name="Arial Black" size="27.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" height="8.0" radius="2.2425" spread="0.37" width="2.97" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tableFactureEnCours" layoutX="165.0" layoutY="428.0" prefHeight="210.0" prefWidth="656.0">
+         <columns>
+            <TableColumn fx:id="ccodeProF" prefWidth="131.0" text="CodePro" />
+            <TableColumn fx:id="cnomPro" prefWidth="131.0" text="nomPro" />
+            <TableColumn fx:id="cQuantite" prefWidth="131.0" text="Qte" />
+            <TableColumn fx:id="cPrixUnit" prefWidth="131.0" text="prixUnit" />
+            <TableColumn fx:id="cPrixTotal" prefWidth="131.0" text="PrixTotal" />
+         </columns>
+      </TableView>
+      <TextField fx:id="SearchPro" layoutX="855.0" layoutY="75.0" promptText="Recherche produit" />
+      <Button layoutX="929.0" layoutY="355.0" mnemonicParsing="false" text="Actualiser" />
+      <TextField fx:id="Codepro" layoutX="165.0" layoutY="380.0" promptText="codePro" />
+      <TextField fx:id="Qte" layoutX="337.0" layoutY="380.0" promptText="quantité" />
+      <Button layoutX="507.0" layoutY="380.0" mnemonicParsing="false" onAction="#OK" text="OK" />
+      <TextField fx:id="IdClient" layoutX="165.0" layoutY="655.0" promptText="IdClient" />
+      <Button layoutX="769.0" layoutY="696.0" mnemonicParsing="false" onAction="#valider" text="Valider" />
+      <Label fx:id="Total" layoutX="730.0" layoutY="659.0" text="TOTAL" />
+      <TextField fx:id="SumPaye" layoutX="507.0" layoutY="655.0" promptText="SommePaye" />
+      <TextField fx:id="modePaie" layoutX="329.0" layoutY="655.0" promptText="Mode de paiement" />
+      <Button layoutX="553.0" layoutY="380.0" mnemonicParsing="false" onAction="#Clear" text="Clear" />
+   </children>
+</AnchorPane>

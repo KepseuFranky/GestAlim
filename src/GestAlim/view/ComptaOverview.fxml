@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1032.0" stylesheets="@page_Principale.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestAlim.view.ComptaOverviewController">
+   <children>
+      <BorderPane layoutX="179.0" layoutY="60.0" prefHeight="459.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="417.0" prefWidth="148.0" styleClass="anchorPane1" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane layoutX="2.0" layoutY="1.0" prefHeight="409.0" prefWidth="165.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <JFXButton fx:id="Accueil" onAction="#HandleAccueil" prefHeight="51.0" prefWidth="144.0" styleClass="buttonAnchorPane1" text="Acceuil " textFill="#fcfafa" GridPane.halignment="RIGHT">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="32.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icones/icons8-accueil-48.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                           <image>
+                              <Image url="@icones/icons8-rubik's-cube-100%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <JFXButton fx:id="produit" onAction="#HandleProduit" prefHeight="50.0" prefWidth="198.0" styleClass="buttonAnchorPane1" text="Produits" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                        <JFXButton fx:id="facturation" onAction="#HandleFacturation" prefHeight="50.0" prefWidth="125.0" styleClass="buttonAnchorPane1" text="Facturation" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <JFXButton fx:id="factures" onAction="#HandleFacture" prefHeight="50.0" prefWidth="171.0" styleClass="buttonAnchorPane1" text="Factures" GridPane.rowIndex="3" />
+                        <JFXButton fx:id="evolution" onAction="#HandleEvolution" prefHeight="85.0" prefWidth="145.0" styleClass="buttonAnchorPane1" text=" Evolution" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+                        <JFXButton fx:id="employe" onAction="#HandleEmploye" prefHeight="134.0" prefWidth="144.0" styleClass="buttonAnchorPane1" text="Employes" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+                        <JFXButton fx:id="fournisseur" onAction="#HandleFournisseur" prefHeight="50.0" prefWidth="130.0" styleClass="buttonAnchorPane1" text=" Fournisseurs" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+                        <JFXButton fx:id="comptabilite" onAction="#HandleComptablilite" prefHeight="84.0" prefWidth="147.0" styleClass="anchorpane3" text="    Comptabilite" GridPane.halignment="RIGHT" GridPane.rowIndex="7" />
+                        <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                           <image>
+                              <Image url="@icones/icons8-facturation-30.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+                           <image>
+                              <Image url="@icones/icons8-ticket-de-caisse-64%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+                           <image>
+                              <Image url="@icones/icons8-increase-96.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+                           <image>
+                              <Image url="@icones/icons8-invité-homme-48.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+                           <image>
+                              <Image url="@icones/icons8-food-truck-48.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="39.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+                           <image>
+                              <Image url="@icones/icons8-calculator-96.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+         </left>
+         <top>
+            <AnchorPane prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: rgb(228,228,228);" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="41.0" fitWidth="49.0" layoutX="-1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@icones/superMarket.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="52.0" prefHeight="25.0" prefWidth="154.0" text="GestAlim " textFill="#0749bc">
+                     <font>
+                        <Font name="Arial Black" size="27.0" />
+                     </font>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="8.0" radius="2.2425" spread="0.37" width="2.97" />
+                     </effect>
+                  </Label>
+                  <Label fx:id="salutLabel" layoutX="881.0" layoutY="25.0" text="Label" />
+                  <JFXButton layoutX="989.0" layoutY="6.0" onAction="#HandleOut" style="-fx-border-color: black;" text="Exit" />
+                  <Label layoutX="881.0" layoutY="6.0" text="Bienvenu" />
+                  </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <SplitPane dividerPositions="0.23121387283236994" orientation="VERTICAL" prefHeight="694.0" prefWidth="884.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="346.0" prefWidth="882.0" styleClass="anchorpane3">
+                           <children>
+                              <ImageView fitHeight="57.0" fitWidth="62.0" layoutX="137.0" layoutY="50.0">
+                                 <image>
+                                    <Image url="@../../../icônes/icons8-comptabilité-48.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="220.0" layoutY="30.0" text="Comptabilité">
+                                 <font>
+                                    <Font name="Cambria" size="76.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="53.0" fitWidth="47.0" layoutX="667.0" layoutY="52.0">
+                                 <image>
+                                    <Image url="@../../../icônes/icons8-comptabilité-48.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #bbefee;">
+                           <children>
+                              <JFXButton contentDisplay="TOP" layoutX="98.0" layoutY="44.0" onAction="#handleFactureCompta" prefHeight="133.0" prefWidth="143.0" style="-fx-background-color: #098c50; -fx-background-radius: 8em;" text="Facture">
+                                 <graphic>
+                                    <ImageView fitHeight="70.0" fitWidth="74.0">
+                                       <image>
+                                          <Image url="@../../../icônes/icons8-facture-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Century" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton contentDisplay="TOP" layoutX="356.0" layoutY="44.0" onAction="#handleProduitCompta" prefHeight="133.0" prefWidth="143.0" style="-fx-background-color: #098c50; -fx-background-radius: 8em;" text="Produit">
+                                 <font>
+                                    <Font name="Century" size="12.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="70.0" fitWidth="74.0">
+                                       <image>
+                                          <Image url="@../../../icônes/icons8-achats-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton contentDisplay="TOP" layoutX="602.0" layoutY="44.0" onAction="#handleVenteCompta" prefHeight="133.0" prefWidth="143.0" style="-fx-background-color: #098c50; -fx-background-radius: 8em;" text="Les ventes">
+                                 <font>
+                                    <Font name="Century" size="12.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="70.0" fitWidth="74.0">
+                                       <image>
+                                          <Image url="@../../../icônes/icons8-chaudron-rempli-d'or-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <GridPane layoutX="98.0" layoutY="234.0" prefHeight="180.0" prefWidth="321.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="148.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="52.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label text="Nombre d'employés:" />
+                                    <Label text="Nombre de clients:" GridPane.rowIndex="1" />
+                                    <Label text="Nombres de produits:" GridPane.rowIndex="2" />
+                                    <Label text="Nombres de fournisseurs:" GridPane.rowIndex="3" />
+                                    <Label text="Ventes Totales:" GridPane.rowIndex="4" />
+                                    <Label fx:id="employeLab" text="Label" GridPane.columnIndex="1" />
+                                    <Label fx:id="clientLab" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Label fx:id="produitLab" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Label fx:id="fournisseurLab" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    <Label fx:id="VenteLab" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

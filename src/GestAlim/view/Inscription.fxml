@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="735.0" prefWidth="1032.0" styleClass="acceuil" stylesheets="@page_Principale.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestAlim.view.InscriptionController">
+   <children>
+      <AnchorPane layoutX="206.0" layoutY="153.0" opacity="0.94" prefHeight="430.0" prefWidth="612.0" styleClass="anchorPaneSpecial">
+         <children>
+            <Label layoutX="65.0" layoutY="25.0" prefHeight="17.0" prefWidth="89.0" styleClass="labelPresentation" text="Nom" />
+            <JFXTextField fx:id="nomField" layoutX="323.0" layoutY="11.0" prefHeight="25.0" prefWidth="246.0" promptText="NOM" unFocusColor="#360d90" />
+            <Label layoutX="65.0" layoutY="110.0" prefHeight="17.0" prefWidth="89.0" styleClass="labelPresentation" text="Type" />
+            <Label layoutX="66.0" layoutY="63.0" styleClass="labelPresentation" text="Login" />
+            <Label layoutX="64.0" layoutY="160.0" prefHeight="17.0" prefWidth="89.0" styleClass="labelPresentation" text="Mot de passe" />
+            <Label layoutX="64.0" layoutY="212.0" prefHeight="20.0" prefWidth="234.0" styleClass="labelPresentation" text="Confirmation du Mot de passe" />
+            <JFXTextField fx:id="typeField" layoutX="323.0" layoutY="96.0" prefHeight="25.0" prefWidth="246.0" promptText="TYPE" unFocusColor="#360d90" />
+            <JFXTextField fx:id="loginField" layoutX="325.0" layoutY="56.0" prefHeight="25.0" prefWidth="246.0" promptText="LOGIN" />
+            <JFXPasswordField fx:id="passwordField" layoutX="324.0" layoutY="148.0" prefHeight="25.0" prefWidth="246.0" promptText="MOT DE PASSE" unFocusColor="#1e26c3" />
+            <JFXPasswordField fx:id="confirmPasswordField" layoutX="319.0" layoutY="204.0" prefHeight="25.0" prefWidth="246.0" promptText="CONFIRMATION MOT DE PASSE" unFocusColor="#1e26c3" />
+            <JFXButton fx:id="confirmButton" layoutX="127.0" layoutY="331.0" onAction="#handleConfirm" prefHeight="36.0" prefWidth="184.0" styleClass="boutonAcceuilSpe" text="Créer votre compte" textFill="#8217ff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="annulerButton" layoutX="374.0" layoutY="332.0" onAction="#handleCancel" prefHeight="34.0" prefWidth="157.0" styleClass="boutonAnulation" text="Annuler" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

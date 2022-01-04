@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="444.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestAlim.view.FactureShowDialogController">
+   <children>
+      <Label fx:id="factureData" alignment="TOP_LEFT" layoutX="28.0" layoutY="87.0" prefHeight="269.0" prefWidth="837.0" text="Label">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="32.0" text="GestAlim  S.A." />
+      <Label layoutX="28.0" layoutY="58.0" text="Nom Caissier :" />
+      <Label layoutX="330.0" layoutY="58.0" text="Nom Client :" />
+      <Label layoutX="608.0" layoutY="32.0" text="Facture N° " />
+      <Label layoutX="608.0" layoutY="58.0" text="Date : " />
+      <Label fx:id="nomCaissier" layoutX="127.0" layoutY="58.0" text="ND" />
+      <Label fx:id="nomClient" layoutX="410.0" layoutY="58.0" text="ND" />
+      <Label fx:id="date" layoutX="653.0" layoutY="58.0" text="ND" />
+      <Label layoutX="28.0" layoutY="372.0" text="Remise :" />
+      <Label fx:id="remise" layoutX="90.0" layoutY="372.0" text="0" />
+      <Label layoutX="330.0" layoutY="372.0" text="Total :" />
+      <Label fx:id="total" layoutX="382.0" layoutY="372.0" text="0" />
+      <Label layoutX="608.0" layoutY="372.0" text="Net à Payer : " />
+      <Label fx:id="netPayer" layoutX="690.0" layoutY="372.0" text="0" />
+      <Label layoutX="28.0" layoutY="402.0" text="NB : Les marchandises vendues ne sont ni reprises ni échangées. Merci pour votre achat" />
+      <Label fx:id="idFacture" layoutX="683.0" layoutY="32.0" text="X" />
+   </children>
+</AnchorPane>
